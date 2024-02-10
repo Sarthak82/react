@@ -55,4 +55,4 @@ root.render(<HeadingComponent />)
 
 // --Babel: It takes js and converts it to the code that js engine can understand. Transpiler, javascript compiler. Babel transpiles code to a code that old browsers can even understand. 
 
-// React element reffers to the js code and reac t functional component returns react element
+// React element reffers to the js code and react functional component returns react element
