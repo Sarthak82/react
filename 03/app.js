@@ -24,9 +24,27 @@ const jsxHeading=<img src="https://images.pexels.com/photos/20787/pexels-photo.j
 
 //react functional componets: It is a Simple javaScript Function
 
+// const Title=()=>(
+//     <h2> This is other Title</h2>
+// )
+
+const elem=(
+    <span> This is the elem element </span>
+)
+const title=(
+    <h2>This is other Title
+        <span> This is the elem element </span>
+    </h2>
+    
+)
+
+const number=10000
+// Component inside other component is known as component Composition
 const HeadingComponent=()=>(
     <div>
         <h1>React Functional Component</h1>
+        {  title/* {Now we can write any jscode inside this curly braces} */}
+        <title />        
     </div>
 )
 const root=ReactDOM.createRoot(document.getElementById("root"))
