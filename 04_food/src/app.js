@@ -8,9 +8,6 @@ const AppLayoutComponet=()=>{
         <div className="app">
             <Header />
             <Body />
-            
-
-
         </div>
     )
 }

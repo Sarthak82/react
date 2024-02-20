@@ -67,3 +67,12 @@
     width: 200px;
     background-color: lightgray;
 }
+
+.login{
+    cursor: pointer;
+    padding: 0 20px;
+    margin: 20px; 
+    height: 100%;
+    color: black;
+    border-color: black;  
+}
