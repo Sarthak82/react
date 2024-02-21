@@ -19,10 +19,16 @@ const Header=()=>{
                     <li>About Us</li>
                     <li>Contact us</li>
                     <li>Cart</li>
-                    <li>Hello</li>
                     <button className="login" 
                         onClick={()=>{
-                          changebtnName('Logout')                      
+                          if (btnName=='Login')
+                          {
+                            changebtnName('Logout')
+                          } else{
+                            changebtnName('Login')
+                          }
+
+
                     }}>{btnName}</button>
                 </ul>
             </div>
