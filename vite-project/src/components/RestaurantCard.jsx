@@ -5,7 +5,8 @@ const styleCard={
 }
 
 const RestaurantCard=(props)=>{
-    const {resData}=props
+    
+    const {resData} =props
 
     const {cloudinaryImageId,name,cuisines,avgRating,costForTwo,sla}=resData?.info
     return (
