@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard"
 import { useState, useEffect } from "react"
-import Shimmer from "./shimmer"
+import Shimmer from "./Shimmer"
 
 const Body=()=>{
 
