@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import AnimeCard from "./AnimeCard"
+import Shimmer from "./Shimmer"
 
 const Body=()=>{
     
@@ -8,6 +9,9 @@ const Body=()=>{
 
     let [searchtext,setsearchtext]=useState("")
 
+    useEffect(()=>{
+        fetchdata()
+        },[])
     
     const fetchdata= async()=>{
         const resp = await fetch("https://api-aniwatch.onrender.com/anime/home")
@@ -18,11 +22,8 @@ const Body=()=>{
         // console.log(animeList)
     }
     
-    useEffect(()=>{
-        fetchdata()
-        },[])
 
-    return (
+        return animeListtobeprinted.length===0 ? <Shimmer/> : (
         
         <>
             <div className="button">
