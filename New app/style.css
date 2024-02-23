@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+.top-of-the-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+img{
+    height:150px;
+    width: 150px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    padding: 30px;
+    list-style: none;
+    color: white;
+}
+
+ul>li{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.card{
+    background-color: gray;
+    color: aliceblue;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.card:hover{
+    cursor: pointer;
+    border: 1px solid wheat;
+}
+
+.image-of-anime{
+
+    height: 180px;
+    width: 100%;
+}
+
+.other-anime-info{
+    font-size: 15px;
+}
+
+.anime-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+}
+
+.top-anime-list, .bottom-anime-list{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search{
+    padding: 13px;
+}
+
+.search-text{
+    margin: 2px;
+}
+
+.search-btn{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
