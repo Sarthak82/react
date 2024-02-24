@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+
 .top-of-the-page{
     display: flex;
     justify-content: space-between;
